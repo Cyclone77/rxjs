@@ -3,11 +3,11 @@ import { Component, OnInit } from '@angular/core';
 import { Observable, Observer, timer } from 'rxjs';
 
 @Component({
-  selector: 'app-obervable',
-  templateUrl: './obervable.component.html',
-  styleUrls: ['./obervable.component.css']
+  selector: 'app-observable',
+  templateUrl: './observable.component.html',
+  styleUrls: ['./observable.component.css']
 })
-export class ObervableComponent implements OnInit {
+export class ObservableComponent implements OnInit {
 
   constructor() { }
 
@@ -64,7 +64,7 @@ export class ObervableComponent implements OnInit {
         console.log('complete!');
       },
       error: (error) => {
-          console.log('Throw Error: ' + error);
+        console.log('Throw Error: ' + error);
       }
     });
 
@@ -73,4 +73,5 @@ export class ObervableComponent implements OnInit {
       subscription.unsubscribe();
     }, 5000);
   }
+
 }

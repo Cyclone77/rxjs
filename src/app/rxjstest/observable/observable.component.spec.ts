@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ObervableComponent } from './obervable.component';
+import { ObservableComponent } from './observable.component';
 
-describe('ObervableComponent', () => {
-  let component: ObervableComponent;
-  let fixture: ComponentFixture<ObervableComponent>;
+describe('ObservableComponent', () => {
+  let component: ObservableComponent;
+  let fixture: ComponentFixture<ObservableComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ObervableComponent ]
+      declarations: [ ObservableComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ObervableComponent);
+    fixture = TestBed.createComponent(ObservableComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

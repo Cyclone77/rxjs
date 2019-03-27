@@ -7,13 +7,15 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { AppComponent } from './app.component';
 import { ConfigComponent } from './config/config.component';
 import { InMemoryDataService } from './in-memory-data.service';
-import { ObervableComponent } from './rxjstest/obervable/obervable.component';
+import { ObserverPatternComponent } from './rxjstest/observer-pattern/observer-pattern.component';
+import { ObservableComponent } from './rxjstest/observable/observable.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ConfigComponent,
-    ObervableComponent
+    ObserverPatternComponent,
+    ObservableComponent
   ],
   imports: [
     BrowserModule,
