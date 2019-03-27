@@ -1,0 +1,7 @@
+<button (click)="showConfig()">get</button>
+
+<button (click)="showConfigResponse()">get Response</button>
+
+<ng-container *ngFor="let item of heroes">
+    <p>{{item.id}}--{{ item.name }}</p>
+</ng-container>
